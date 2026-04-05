@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: churn_source
+    database: churn_project   # sama dengan dbname di postgres
+    schema: churn_schema     # sama dengan schema di postgres
+
+    tables:
+      - name: raw_churn

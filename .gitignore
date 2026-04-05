@@ -1,0 +1,17 @@
+target/
+dbt_packages/
+logs/
+analyses/
+macros/
+seeds/
+snapshots/
+tests/
+
+*.csv
+*.parquet
+*.pkl
+*.joblib
+data/
+.DS_Store
+__pycache__/
+*.pyc
